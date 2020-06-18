@@ -1,4 +1,4 @@
-This project is created by (https://hitik20.tech) 
+This project is created by [hitik](https://hitik20.tech)
 
 ## Available Scripts
 
