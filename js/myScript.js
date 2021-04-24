@@ -4,6 +4,7 @@ $(document).ready(function() {
     var c = 0;
     var d = 0;
     $(".lds-dual-ring").hide();
+    
     // get logged in user detail
     function fetchUserInfo() {
         $.ajax({
@@ -55,7 +56,7 @@ $(document).ready(function() {
         });
     }
 
-  
+
     // searchbox in follower display
     $(document).on('input', '#searchbox', function() {
         var data = $(this).val();
@@ -82,14 +83,14 @@ $(document).ready(function() {
         });
     });
 
-    // show loader on click of searchbox 
+    // show loader on click of searchbox
     $(".search-box").click(function(){
-       
+
         $(".lds-dual-ring").show();
     });
 
      // hide loader on click of download button
-    $("#downloadFollower").click(function(){    
+    $("#downloadFollower").click(function(){
         $(".lds-dual-ring").hide();
     });
 
