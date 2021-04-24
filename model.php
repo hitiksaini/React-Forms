@@ -429,7 +429,7 @@
         public function logout() {
             session_unset();
             session_destroy();
-            header("location:https://rtcampttn.000webhostapp.com/index.php");
+            header("location:https://rtcampttn.herokuapp.com/index.php");
             exit();
         }
     }
