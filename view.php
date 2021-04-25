@@ -4,20 +4,11 @@
 <title>Twitter Timeline challenge</title>
 <link rel="icon" type="image/png" href="images/twitter.png"/>
 
-<link rel="stylesheet" href="css/myUI.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/myScript.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/jquery.bxslider.js"></script>
-<script src="js/jquery-1.10.2.js"></script>
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/full-slider.css" rel="stylesheet">
+<link rel="stylesheet" href="css/myUI.css">
+<link rel="stylesheet" href="css/full-slider.css" >
 <link rel="stylesheet" href="css/myView.css">
+
 </head>
 <body onload="myFunction()">
 
@@ -62,7 +53,7 @@
 				<div id="followers"></div>
     </div>
 
-    <!-- carousel slider plugin -->
+    <!-- carousel -->
    <div class="width75">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox" style="background-color:grey;">
@@ -71,11 +62,11 @@
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <i class="carousel-control-prev-icon" style="color:black;"></i>
+          <i class="carousel-control-prev-icon"></i>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <i class="carousel-control-next-icon" style="color:black;"></i>
+          <i class="carousel-control-next-icon"></i>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -175,5 +166,16 @@ function showPage() {
   document.getElementById("tn").style.display = "block";
 }
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.js"></script>
+
+
+<script src="js/myScript.js"></script>
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/d64b5afa4a.js" crossorigin="anonymous"></script>
 </body>
 </html>
