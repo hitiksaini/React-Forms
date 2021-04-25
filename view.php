@@ -4,12 +4,8 @@
 <title>Twitter Timeline challenge</title>
 <link rel="icon" type="image/png" href="images/twitter.png"/>
 
-
 <link rel="stylesheet" href="css/myUI.css">
-
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,6 +19,7 @@
 <script src="https://kit.fontawesome.com/d64b5afa4a.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/full-slider.css" >
 <link rel="stylesheet" href="css/myView.css">
+<link rel="stylesheet" href="css/global.css">
 </head>
 <body onload="myFunction()">
 

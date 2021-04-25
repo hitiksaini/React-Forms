@@ -4,8 +4,8 @@ $(document).ready(function() {
     var c = 0;
     var d = 0;
     $(".lds-dual-ring").hide();
-    
-    // get logged in user detail
+
+    // get user detail
     function fetchUserInfo() {
         $.ajax({
             url: './controller.php?userdata=true',
