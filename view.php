@@ -4,11 +4,25 @@
 <title>Twitter Timeline challenge</title>
 <link rel="icon" type="image/png" href="images/twitter.png"/>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <link rel="stylesheet" href="css/myUI.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.js"></script>
+<script src="js/myScript.js"></script>
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/d64b5afa4a.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/full-slider.css" >
 <link rel="stylesheet" href="css/myView.css">
-
 </head>
 <body onload="myFunction()">
 
@@ -57,7 +71,7 @@
    <div class="width75">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox" style="background-color:grey;">
-          <div class="carousel-item " >
+          <div class="active carousel-item " >
             <div><center>Wait for few minute</center></div>
           </div>
         </div>
@@ -143,12 +157,8 @@
     }
 </script>
 
-<script src="vendor/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- css loader script -->
-
 <script>
 var myVar;
 
@@ -167,15 +177,5 @@ function showPage() {
 }
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.js"></script>
-
-
-<script src="js/myScript.js"></script>
-<!-- FontAwesome -->
-<script src="https://kit.fontawesome.com/d64b5afa4a.js" crossorigin="anonymous"></script>
 </body>
 </html>
