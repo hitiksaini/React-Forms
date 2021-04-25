@@ -1,8 +1,9 @@
 * {box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
 body {
   margin: 0;
-  font-family:sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.50rem;
 }
 
@@ -70,6 +71,37 @@ a{
   background: #ccc;
 }
 
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#hr_line {
+    border-bottom: solid black 1px;
+}
+
+.follower {
+    margin-top: 10px;
+}
+
+#myCarousel {
+    height: 150px;
+}
+
+.left {
+    border-right: 1px gray;
+}
+
+.follower:hover {
+    background-color: #ADD8E6;
+    cursor: pointer;
+}
+
 .row{
     display: block;
     width: 100%;
@@ -77,15 +109,15 @@ a{
 }
 
 .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
+    width: 100%;
+    height: 100%;
+    overflow: auto;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
@@ -133,7 +165,7 @@ a{
 }
 
 @media screen and (max-width: 930px) {
- 
+
   .topnav .search-container {
     float: none;
     width: 100%;
@@ -156,7 +188,7 @@ a{
   }
 
   .topnav input[type=text] {
-    border: 1px solid #ccc;  
+    border: 1px solid #ccc;
   }
   .download {
     float: left;
@@ -175,7 +207,7 @@ a{
   padding-left: 27px;
   }
   .user_name {
-    width: 100%; 
+    width: 100%;
   float: left;
   padding-left: 27px;
 }
@@ -277,7 +309,7 @@ a{
 }
 
 .user_name {
-  width: 60%; 
+  width: 60%;
   float: left;
   padding-left: 27px;
 }
@@ -383,12 +415,12 @@ a{
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
+  from { bottom:-100px; opacity:0 }
   to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
 

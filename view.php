@@ -4,9 +4,9 @@
 <title>Twitter Timeline challenge</title>
 <link rel="icon" type="image/png" href="images/twitter.png"/>
 
-<link rel="stylesheet" href="css/myUI.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="css/view.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
@@ -14,12 +14,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.js"></script>
-<script src="js/myScript.js"></script>
-<!-- FontAwesome -->
 <script src="https://kit.fontawesome.com/d64b5afa4a.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/full-slider.css" >
-<link rel="stylesheet" href="css/myView.css">
-<link rel="stylesheet" href="css/global.css">
+<script src="js/myScript.js"></script>
+
 </head>
 <body onload="myFunction()">
 
@@ -158,15 +155,12 @@
 <!-- css loader script -->
 <script>
 var myVar;
-
 function myFunction() {
     myVar = setTimeout(showPage, 1000);
 }
-
 function myFocusOut() {
   document.getElementById("ring").style.display = "none";
 }
-
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("con").style.display = "block";

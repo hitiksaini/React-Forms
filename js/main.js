@@ -85,10 +85,15 @@ $(document).ready(function() {
 
     // show loader on click of searchbox
     $(".search-box").click(function(){
-
         $(".lds-dual-ring").show();
     });
 
+    $( function() {
+        $( ".search-box" ).autocomplete({
+          source: 'controller.php?autosearch=true'
+        });
+      } );
+      
      // hide loader on click of download button
     $("#downloadFollower").click(function(){
         $(".lds-dual-ring").hide();

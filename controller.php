@@ -1,8 +1,10 @@
+<!-- Consider it as a Driver code for the entire project -->
+
 <?php
     session_start();
     include('./model.php');
     $model = new Model();
-    
+
     // login
     if( isset($_POST['login']) ) {
         $model->connection();
@@ -56,11 +58,11 @@
             header('location:lib\google-drive-api\index.php');
         }
     }
-       
+
     //  search public follower
     if( isset($_POST['search_public_user']) ) {
         $_SESSION['downloadUserName']=$_POST['search_public_user'];
-    }  
+    }
 
 
     // autosearch follower of logged in user
