@@ -5,10 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="images/twitter.png"/>
 
+<link rel="stylesheet" href="css/myUI.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<link rel="stylesheet" href="css/view.css?v=<?php echo time(); ?>">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/jquery-1.10.2.js"></script>
+
+<link  rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/view.css?v=<?php echo time(); ?>">
 </head>
 
 <body onload="myFunction()">
@@ -54,12 +63,8 @@
   </div>
 </div>
 
-
-
   <!-- main content -->
   <div class="row" id="con">
-
-
     <!-- carousel -->
    <div class="width75">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -122,16 +127,12 @@
   </div>
   </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.js"></script>
-<script src="https://kit.fontawesome.com/d64b5afa4a.js" crossorigin="anonymous"></script>
-
 <script src="js/view.js"></script>
-<script src="js/myScript.js"></script>
 
+<script src="js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+<script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://kit.fontawesome.com/d64b5afa4a.js" crossorigin="anonymous"></script>
 </body>
 </html>
