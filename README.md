@@ -1,6 +1,6 @@
 # `Twitter-Timeline Challenge`
 
-This assignment is a part of [rtCamp](https://rtcamp.com/) Campus placement drive at Chandigarh University. Though I have never worked in PHP but I'll apply my web deb skills to this project and see how it goes :) All the resources are mentioned below(links provided)
+This assignment is a part of [rtCamp](https://rtcamp.com/) Campus placement drive at Chandigarh University. Though I have never worked in PHP but I'll apply my web dev skills to this project and see how it goes :) All the resources are mentioned below(links provided)
 
 ### `Statements:`
 
