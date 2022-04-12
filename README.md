@@ -1,4 +1,4 @@
-# `Twitter-Timeline Challenge`
+## Twitter-Timeline Challenge
 
 This assignment is a part of [rtCamp](https://rtcamp.com/) Campus placement drive at Chandigarh University. Though I have never worked in PHP but I'll apply my web dev skills to this project and see how it goes :) All the resources are mentioned below(links provided)
 
@@ -29,7 +29,3 @@ We have divided the assignment into 3 parts to help define the objectives for ea
 
 
 `Please note that we are aware of Twitter API limits for retrieving tweets/follower’s data although you have to overcome these by thinking outside the box like we do at rtCamp.`
-
-### `Resources used:`
-
-I will be collectively mentioning them in the end of project :)
